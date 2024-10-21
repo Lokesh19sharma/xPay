@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   withCredentials: true,
-  baseURL: "//ec2-13-60-81-212.eu-north-1.compute.amazonaws.com",
+  baseURL: "https://xpay-syrw.onrender.com",
 });
 
 instance.interceptors.request.use((config) => {
